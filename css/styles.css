@@ -711,10 +711,6 @@ form {
 
 @media screen and (max-width:320px) {
 /* удалить потом здесь все*/
-.my-jumbotron-map{
-		left: 25px;
-	}
-
 	.main-content-big h2{
 		font-size: 25px;
 	}
