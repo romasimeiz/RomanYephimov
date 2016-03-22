@@ -1,0 +1,719 @@
+/****************
+******Общие******
+*****************/
+h1, h2, h3, h4, h5{
+	font-family: 'Comfortaa', cursive;
+}
+
+p {
+   font-family: 'Neucha', cursive;
+}
+
+textarea {
+	resize: none;
+}
+
+small{
+	color:#fff !important;
+}
+
+.col-md-12{
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+.show, .friends, .map {
+	background-size: cover;
+	width: 100%;
+	height: 700px; 
+	font-family: 'Comfortaa', cursive !important;
+}
+
+.map h1, .show h1, .friends h1
+{   
+   margin-bottom: 13px;
+   margin-top:5px;
+}
+
+.map p, .show p, .friends p
+{	
+	margin-top: 10px;
+	font-size: 18px;
+	font-family: 'Comfortaa', cursive !important; 
+}
+
+.my-jumbotron-friends, .my-jumbotron-map, .my-jumbotron-show
+{
+	position: absolute;
+	opacity: .8;
+	padding: 15px;
+	border-radius: 6px;
+	width: 550px;
+	height: 230px;
+}
+
+
+/****************
+******page1******
+*****************/
+
+.my-heading h1,.my-heading p, .container-login {
+	font-family: 'Neucha', cursive;
+	letter-spacing: .4em;
+}
+
+.my-heading h1{	
+	padding-top: 80px;
+	font-size: 60px;
+	color: #1FE9FF;
+	font-weight: bold;	
+	text-shadow: 3px 3px 1px rgba(100,31,46, 1);
+}
+
+.my-heading p{
+	margin-top: 20px; 
+	font-size: 20px;
+	color: #F5FFFC;	
+	word-spacing: .4em;
+}
+
+.my-heading p, .my-heading h1{
+	text-align: center;	
+}
+.my-heading{
+	margin-left: 40px;	
+}
+
+.string{
+	padding: 0 5px;
+	opacity: 0.7; 
+	background-color:#3B3D3D; 
+	border-radius: 6px;
+}
+
+.string a{
+	color:#fff;
+}
+
+ .register-link a:hover, .string a:hover{
+	text-decoration: none;
+	transition: color .4s;
+	color:#FF7D12;
+}
+
+.cover-image-main1 {
+		background-image: url(/img/main.jpg);		
+		max-width: auto;
+		height: 700px;		
+	}
+
+.container-login, .cover-image-main1 {
+	
+	background-size: cover;
+}
+
+.container-login{
+	background-image: url(/img/main-bag.png);	
+	width: 309px;
+	height: 539px;	
+	color:#fff;
+	padding-top: 150px;
+	padding-left: 45px;
+	margin-top: 35px;
+	float:right;
+}
+
+.container-login input {
+	max-width: 220px;
+}
+
+.register-link a
+{
+   color: #fff;
+   font-size: 14px;
+   text-decoration: none;
+}
+
+/****************
+******page2******
+*****************/
+
+.map{
+	background-image:url(/img/map-res.jpg);	
+}
+
+.map h1{
+	color: #4BCCA8;
+}
+
+.map p
+{
+	color: #F5FFFC;
+}
+
+
+.my-jumbotron-map
+{
+ 	background-color: #6F7070; 	 	
+ 	/*margin: 20px 10px;*/
+ 	bottom:50px;
+ 	left:50px; 	
+}
+
+
+/****************
+******page3******
+*****************/
+
+.show{
+	background-image:url(/img/show.jpg);	
+}
+
+.my-jumbotron-show
+{
+ 	background-color: #D7F3FA;
+ 	top:100px;
+ 	right: 50px; 		
+ 	border-radius: 6px;
+}
+
+.my-jumbotron-show, .readmore
+{
+	float: right;
+}
+
+.show h1
+{
+   color: #00A6FF;     
+}
+
+.show p
+{
+	color: #000;
+}
+
+/****************
+******page4******
+*****************/
+
+.friends{
+	background-image:url(/img/friends.jpg);
+	height: 660px; 
+}
+
+.my-jumbotron-friends
+{
+ 	background-color: #FADEE0;
+ 	top:50px;
+ 	right:220px;
+ 	border-radius: 6px;
+ 	height: 275px;
+}
+
+.friends h1
+{
+   color: #1E00C7;   
+}
+
+.friends p
+{
+	color: #851E25;
+}
+
+
+/****************
+******footer******
+*****************/
+.bg-4 p, .bg-4 a {
+	font-family: 'Bad Script', cursive !important
+}
+
+.bg-4 {
+	padding-top: 30px;
+	height: 100px;
+	font-family: 'Bad Script', cursive !important;
+	font-size: 22px;
+    background-color: #2f2f2f;
+    color: #DEDEDE;
+ }
+
+ .bg-4 a
+ {
+ 	text-decoration: none;
+ 	color:#fff;
+ }
+
+ .bg-4 a:hover
+ {
+ 	transition: color .5s ease;
+ 	color:#53C1FC;
+ }
+
+
+/********************
+******user page******
+*********************/
+
+
+pre {
+	margin-top: 20px;
+}
+
+.user-back{
+	color:#e3e3e3;
+	background: url(/img/map-back.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.user-picture, .user-picture-small{	
+	background-image: url(/img/ava.jpg);
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;	
+}
+
+.navbar{
+	background: #FFE57D;
+	border:0;
+    z-index: 9999;
+	opacity:0.9;
+	line-height: 1.42857143;
+    letter-spacing: 4px;
+    font-size: 18px;		
+}
+
+.navbar, .nav-pills li a{
+	font-family: 'Neucha', cursive;
+}
+
+.navbar li a, .navbar, .navbar-brand {
+      color: #001170;
+  }
+
+.navbar-nav li a:hover{
+  	color: #9E0202;
+  	background-color: #FAFF75 !important;
+  }
+
+.nav-pills li a {
+	background: #FDFFC4;
+	font-size: 16px;
+	color:#4D2000;
+	letter-spacing: 3px;
+}
+
+.main-content, .main-content-big{
+	padding: 10px;	
+}
+
+.main-content small, .main-content-big small{
+	color:#adadad;
+}
+
+.main-content p, .main-content a,.main-content-big p, .main-content-big a{
+	font-family: 'Cuprum', sans-serif;
+	color:#ccc;
+	font-size: 18px;
+}
+
+.main-content a, .main-content-big a, {
+	color:#fff;
+}
+
+.main-content h2, .main-content-big h2{
+	font-family: 'Lobster', cursive;
+	color:#FFFD9E;
+	font-size: 30px;
+}
+
+.main-content img{
+	display: block;
+	margin:25px auto;
+}
+
+.main-content span[class="label label-warning"]{
+	display: inline-block;
+	float:left;
+}
+
+.main-content span[class="glyphicon glyphicon-thumbs-up"], 
+.main-content span[class="glyphicon glyphicon-user"]{
+	margin: 0 2px;
+}
+
+.main-content button{
+	float:left;
+	padding: 3px 10px;
+	margin-right: 10px;
+}
+
+.navbar-brand .badge{
+	background: #fff;
+	font-size: 20px;
+	color:green;
+}
+
+.glyphicon-thumbs-up .badge, .glyphicon-user .badge{
+	margin: 0 2px;
+}
+
+.readmore {
+	width: 100%;
+	margin-bottom: 40px;
+}
+
+.readmore a {
+	float: right;
+}
+
+strong {
+	color: yellow;
+}
+
+/*
+@media screen and (max-width:934px) {
+	.nav-pills li a {
+		font-size: 10px;
+		margin-left: 0;
+		margin-right:0;		
+	}	
+} */
+
+/********************
+******travel page******
+*********************/
+
+.user-picture-small{
+	width: 40px;
+	height: 40px;
+	background: url(/img/ava-small.jpg);
+	background-position: -10px -5px;
+}
+
+.navbar-brand-big{
+	padding: 5px 0px 0 5px;
+	margin-right: 10px;
+}
+
+.float-left{
+	float: left;
+}
+
+.float-right{
+	float: right;
+}
+
+.main-content-big p{
+	margin: 0.5em 20px 1.5em 20px;
+}
+
+.main-content-big img{
+	margin: 5px 20px;
+}
+
+.main-content-big h2{
+font-size: 40px;
+}
+
+.comments{
+	margin: 10px 20% 20px 20%
+}
+
+.user-picture, .user-picture-small{
+	margin: 0 auto;
+}
+
+form {
+	position: relative;
+}
+
+.center {
+	display: block;
+	margin: 10px auto;
+}
+
+/********************
+******pohod page******
+*********************/
+.players{
+	margin: 0 auto;
+	float:right;
+}
+
+.user-photos{
+	display: inline-block;
+	margin: 0 15px 10px 0; 
+}
+.user-photos img, .user-profile img {	
+	border: 1px solid white !important;
+	border-radius: 50% !important;
+}
+
+/********************
+******users page******
+*********************/
+
+.user-profile img {
+	width: 200px;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+}
+
+.user-profile h4 {
+	color:#FFFF99;
+}
+
+.user-profile h6[id="org"], b[id="org"] {
+	color:#00F510;
+}
+
+.user-profile h6[id="put"] {
+	color:yellow;
+}
+
+.user-profile p {
+	color:#fff;
+	font-size: 15px;
+}
+
+.user-profile h4[class="text-center"]{
+	color:#fff;
+}
+
+/********************
+******regster page******
+*********************/
+
+.reg-back {
+	background: url(/img/register-back.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.reg-block {
+	position: relative;
+	margin: 50px auto; 
+	width: 300px;
+	height: 570px;
+	background: #575C5E;
+	opacity: .9;
+	padding: 20px 30px;
+	border-radius: 6px;
+}
+
+.reg-block label{
+	color:#fff;
+}
+
+
+@media screen and (max-width:1200px) {
+	.reg-block {
+		position: relative;
+		margin: 50px auto; 
+		width: 300px;
+		height: 570px;
+		padding: 20px 30px;
+		border-radius: 6px;
+	}
+}
+
+@media screen and (max-width:992px) {
+	.container-login{		
+		width: 290px;
+		height: 480px;		
+		margin: 0 auto;
+		float:none;	
+	}
+
+	.show{
+		background-position: -100px 0; 
+	}
+
+	.map{
+		background-position: -300px 0;
+	}
+
+	.my-jumbotron-friends
+	{
+		top:10px;
+		right:20px;
+		width: 480px;
+	}
+
+	.my-jumbotron-show
+	{
+		top:400px;
+		right:40px;
+	}
+
+	.container-login button {
+		margin-left: 60px;
+	}
+
+	.register-link
+	{
+		margin: 15px 16%;
+	}
+}
+
+@media screen and (max-width:768px) {
+	.reg-back {
+		background-position: -150px 0;
+	}
+
+	.reg-block{
+		height: 410px;
+	}
+
+	.reg-block input{
+		height: 25px;
+		font-size: 13px;
+	}
+
+	.reg-block label{
+		margin-bottom: 2px;
+		font-size: 12px;
+	}
+
+	.reg-block .btn{
+		padding: 4px 8px;
+		font-size: 12px;
+	}
+
+	.reg-block .form-group{
+		margin-bottom: 8px;
+	}
+
+	hr {
+		margin-top:8px;
+		margin-bottom: 8px;		
+	}
+
+	.col-md-12{
+		padding-right:0px !important;
+		padding-left: 0px !important; 
+	}
+
+	.row {
+		margin-right:0px !important; 
+		margin-left:0px !important;
+	}
+
+	.container-fluid {
+		padding-left: 2px;
+		padding-right: 2px;
+	}
+
+	.main-content-big p{
+		margin: 0.5em 5px 1.5em 5px;
+	}
+
+	.main-content-big img{
+		margin: 20px 5px;
+	}	
+
+	.comments{
+		margin: 10px 5% 20px 5%;
+	}
+}
+
+
+@media screen and (max-width:640px) {	
+	.reg-back {
+		background-position: -200px 0;
+	}
+
+	.reg-block{
+		width: 270px;
+	}
+
+	.my-heading h1{
+		padding-top: 5px;
+		font-size: 25px;
+	}
+
+	.my-heading p{
+		font-size: 12px;
+	}
+
+	.container-login{		
+	width: 280px;
+	height: 470px;		
+	margin: 0 auto;
+	float:none;
+	padding-left: 50px;	
+	}	
+
+	.container-login input {
+		max-width: 200px;
+	}
+
+	.container-login button {
+		margin-left: 40px;
+	}
+
+	.my-heading {
+		margin-left: 0;
+	}
+
+	.register-link
+	{
+		margin: 15px 11%;
+	}
+
+	.map{
+		background-position: -370px 0;
+	}
+
+	.map h1, .show h1, .friends h1
+	{   
+		margin-bottom: 5px;
+		margin-top:5px;
+		font-size: 20px;
+	}
+
+	.map p, .show p, .friends p
+	{	
+		margin-top: 7px;
+		font-size: 12px; 
+	}
+
+	.my-jumbotron-friends, .my-jumbotron-map, .my-jumbotron-show
+	{
+		padding: 10px;		
+		width: 85%;
+		height: auto;
+	}
+
+	.my-jumbotron-friends
+	{
+		top:400px;
+		right:25px;		
+	}
+
+	.my-jumbotron-show
+	{
+		top:450px;
+		right:25px;
+	}
+
+	.my-jumbotron-map{
+		left: 25px;
+	}
+
+	.main-content-big h2{
+		font-size: 25px;
+	}
+}
+
+@media screen and (max-width:320px) {	
+}
+
+@import url(https://fonts.googleapis.com/css?family=Lobster&subset=latin,cyrillic);
+@import url(https://fonts.googleapis.com/css?family=Bad+Script&subset=latin,cyrillic);
+@import url(https://fonts.googleapis.com/css?family=Comfortaa&subset=latin,cyrillic);
+@import url(https://fonts.googleapis.com/css?family=Neucha&subset=latin,cyrillic);
+@import url(https://fonts.googleapis.com/css?family=Cuprum&subset=latin,cyrillic);

@@ -1,0 +1,107 @@
+<!doctype HTML>
+<html>
+<head>
+	
+<meta charset="utf-8">
+<title>Страница пользователя</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+	<link rel="stylesheet" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/bootstrap-theme.min.css">
+  <script src="/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="/css/styles.css">
+  <link href='https://fonts.googleapis.com/css?family=Comfortaa&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Cuprum&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Lobster&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+	<!--[if lt IE 9]>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.js"></script>
+	<![endif]-->
+</head>
+<body class="user-back">
+	<nav class="navbar navbar-default navbar-fixed-top">   
+   <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNav">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>            
+    </button>
+    <a href="#" class="navbar-brand">Новый поход<span class="badge">+</span></a> 
+  </div>
+  <div class="collapse navbar-collapse" id="myNav">
+    <ul class="nav navbar-nav">
+      <li><a href="users.php">Люди</a></li>      
+      <li><a href="#">Новые походы</a></li>
+      <li><a href="#">Отчёты с прошедших</a></li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">      
+      <li><a href="/index.html"><span class="glyphicon glyphicon-log-out"></span> Выйти</a></li>
+    </ul>
+  </div>
+</nav>
+<br><br><br><br>
+<header class="container-fluid">
+  <div class="row">
+    <div class="col-md-3 sidenav">
+     <div>
+       <a href="userpage.php"><div class="user-picture">
+       </div> </a>
+       <h4 class="text-center">Роман Ефимов, <i>Харьков</i></h4><br>
+       <ul class="nav nav-pills nav-stacked">
+        <li><a href="#">Приглашаю в поход</a></li>
+        <li><a href="#">Я иду в поход </a></li>        
+        <li><a href="#">Интересные люди</a></li>
+        <li><a href="#">Любимые места</a></li>
+      </ul><br>      
+    <h4> Личные данные </h4>
+    <hr>
+    <form role="form">
+      <div class="form-group">
+        <label>Город</label>
+        <input type="text" class="form-control" value="Харьков">
+      </div>
+      <div class="form-group">
+        <label>Год рождения</label>
+        <input type="date" class="form-control" value="12-04-1992">
+      </div>
+      <div class="form-group">
+        <label>Интересы</label>
+        <textarea name="comments" rows="2" class="form-control">Велотуризм, автопутешествия, гитара, горы, солнце, костёр, леса, хвойные леса </textarea>
+      </div>
+      <div class="form-group">
+        <label>Любимые места</label>
+        <textarea name="comments" rows="2" class="form-control">Саржин Яр, Мерефа, Симеиз, Киев, Берёзовский лес, Зелёный Гай, Будянские поля</textarea>
+      </div>
+      <div class="form-group">
+        <label>О себе</label>
+        <textarea name="comments" rows="2" class="form-control"> looser looser looser looser looser looser looser looser looser</textarea>
+      </div>
+    </div>
+  </form>
+  <br>
+  <h4>Поиск</h4>
+  <hr>
+  <div class="input-group">
+    <input type="text" class="form-control" placeholder="Поиск по сайту">
+    <span class="input-group-btn">
+      <button class="btn btn-default" type="button">
+        <span class="glyphicon glyphicon-search"></span>
+      </button>
+    </span>           
+  </div>
+  <form role="form">       
+    <div class="radio">
+      <label class="radio-inline"><input type="radio" name="optradio">Люди</label>
+    </div>
+    <div class="radio">
+      <label class="radio-inline"><input type="radio" name="optradio">Места</label>
+    </div>
+    <div class="radio">
+      <label class="radio-inline"><input type="radio" name="optradio">Маршруты</label>
+    </div>
+    <div class="radio">
+      <label class="radio-inline"><input type="radio" name="optradio">Фото</label>
+    </div>      
+</form>
+</div>
+   
