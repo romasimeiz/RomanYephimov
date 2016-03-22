@@ -717,7 +717,11 @@ form {
 
 	.main-content-big h2{
 		font-size: 25px;
-	}	
+	}
+	
+.main-content-big h2{
+		font-size: 25px;
+	}		
 }
 
 @import url(https://fonts.googleapis.com/css?family=Lobster&subset=latin,cyrillic);
