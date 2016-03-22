@@ -709,7 +709,15 @@ form {
 	}
 }
 
-@media screen and (max-width:320px) {	
+@media screen and (max-width:320px) {
+/* удалить потом здесь все*/
+.my-jumbotron-map{
+		left: 25px;
+	}
+
+	.main-content-big h2{
+		font-size: 25px;
+	}	
 }
 
 @import url(https://fonts.googleapis.com/css?family=Lobster&subset=latin,cyrillic);
